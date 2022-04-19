@@ -661,7 +661,7 @@ carousel:
       name: bannerData
       label: 手动配置数据
       type: textarea
-      default: "欢迎使用Joe2.0主题-|||-https://bbchin.com/themes/joe2.0/source/img/dp/welcome.jpg-|||-https://github.com/qinhua/halo-theme-joe2.0#readme=====剪映创作不凡 - TRACK概念片-|||-https://img.zcool.cn/community/011ca2614d755911013e894390b399.png@1280w_1l_2o_100sh.png-|||-#"
+      default: "-|||-http://tva1.sinaimg.cn/large/008iXZocgy1h1f3hxf3soj32yo1o0qv8.jpg=====-|||-http://tva1.sinaimg.cn/large/008iXZocgy1h1f3i75ef2j32yo1o0u10.jpg-|||-#"
       description: "手动配置首页的轮播图数据，仅当数据来源为 “手动配置” 时生效（注意：主题内默认配置了演示数据）。【多个轮播图之间用 '=====' 隔开，属性之间用 '-|||-' 隔开】(为了美观，允许换行)，【具体示例】标题-|||-图片链接-|||-跳转链接，不需要跳转写 '#' 即可（请严格按照此格式或默认示例进行配置，否则可能导致网站崩溃）"
     banner_amount_limit:
       name: banner_amount_limit
@@ -794,7 +794,7 @@ aside:
       label: 启用全局侧边栏
       type: switch
       data-type: bool
-      default: true
+      default: false
       description: "是否启用侧边栏（全局），关闭后除文章页外所有页面都没有侧边栏（优先级高于页面元数据）"
       options:
         - value: true
@@ -1054,7 +1054,7 @@ blogger:
       label: 展示博主信息
       type: switch
       data-type: bool
-      default: true
+      default: false
       description: "不展示的情况下，下面配置均无效"
       options:
         - value: true
@@ -1326,7 +1326,7 @@ home:
       label: 开启文章缩略图
       type: switch
       data-type: bool
-      default: true
+      default: false
       description: "是否展示首页文章列表的缩略图"
       options:
         - value: true
@@ -1551,7 +1551,7 @@ home:
       label: 展示精品分类
       type: switch
       data-type: bool
-      default: true
+      default: false
       description: "是否展示首页的精品分类，可自定义封面图片（175*90）"
       options:
         - value: true
