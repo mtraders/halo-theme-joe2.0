@@ -3545,18 +3545,6 @@ others:
           label: 开启
         - value: false
           label: 关闭
-    # enable_backup:
-    #   name: enable_backup
-    #   label: 博客自动备份
-    #   type: switch
-    #   data-type: bool
-    #   default: true
-    #   description: "开启后，系统将每隔5天备份1次，最多备份版本为20份，超过后自动删除最晚的版本，此功能需要先配置相应服务端程序，请戳 xxxxx"
-    #   options:
-    #     - value: true
-    #       label: 开启
-    #     - value: false
-    #       label: 关闭
     rip_mode:
       name: rip_mode
       label: RIP模式(灰色模式)
